@@ -1,0 +1,2 @@
+Invoking command in '/root/ros2_ws/src/build/cpp_pubsub_adv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/cpp_pubsub_adv -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/cpp_pubsub_adv
+Invoked command in '/root/ros2_ws/src/build/cpp_pubsub_adv' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/cpp_pubsub_adv -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/cpp_pubsub_adv

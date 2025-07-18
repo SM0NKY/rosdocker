@@ -1,0 +1,6 @@
+Invoking command in '/root/ros2_ws/src/build/cpp_pubsub_adv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/cpp_pubsub_adv -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/cpp_pubsub_adv
+Invoked command in '/root/ros2_ws/src/build/cpp_pubsub_adv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/cpp_pubsub_adv -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/cpp_pubsub_adv
+Invoking command in '/root/ros2_ws/src/build/cpp_pubsub_adv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/cpp_pubsub_adv -- -j16 -l16
+Invoked command in '/root/ros2_ws/src/build/cpp_pubsub_adv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/cpp_pubsub_adv -- -j16 -l16
+Invoking command in '/root/ros2_ws/src/build/cpp_pubsub_adv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/cpp_pubsub_adv
+Invoked command in '/root/ros2_ws/src/build/cpp_pubsub_adv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/cpp_pubsub_adv

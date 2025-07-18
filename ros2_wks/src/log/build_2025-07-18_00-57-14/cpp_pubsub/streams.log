@@ -1,0 +1,29 @@
+[0.104s] Invoking command in '/root/ros2_ws/src/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/cpp_pubsub -- -j16 -l16
+[0.288s] [35m[1mConsolidate compiler generated dependencies of target publicador[0m
+[0.341s] [ 50%] Built target subscriber
+[0.752s] [ 75%] [32mBuilding CXX object CMakeFiles/publicador.dir/src/publicador.cpp.o[0m
+[5.862s] [100%] [32m[1mLinking CXX executable publicador[0m
+[7.207s] [100%] Built target publicador
+[7.256s] Invoked command in '/root/ros2_ws/src/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/cpp_pubsub -- -j16 -l16
+[7.295s] Invoking command in '/root/ros2_ws/src/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/cpp_pubsub
+[7.309s] -- Install configuration: ""
+[7.330s] -- Installing: /root/ros2_ws/src/install/cpp_pubsub/lib/cpp_pubsub/publicador
+[7.491s] -- Set runtime path of "/root/ros2_ws/src/install/cpp_pubsub/lib/cpp_pubsub/publicador" to ""
+[7.510s] -- Installing: /root/ros2_ws/src/install/cpp_pubsub/lib/cpp_pubsub/subscriber
+[7.831s] -- Set runtime path of "/root/ros2_ws/src/install/cpp_pubsub/lib/cpp_pubsub/subscriber" to ""
+[7.864s] -- Up-to-date: /root/ros2_ws/src/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[7.899s] -- Installing: /root/ros2_ws/src/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[7.991s] -- Up-to-date: /root/ros2_ws/src/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[8.013s] -- Installing: /root/ros2_ws/src/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[8.084s] -- Up-to-date: /root/ros2_ws/src/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[8.106s] -- Installing: /root/ros2_ws/src/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[8.181s] -- Up-to-date: /root/ros2_ws/src/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[8.201s] -- Up-to-date: /root/ros2_ws/src/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[8.220s] -- Up-to-date: /root/ros2_ws/src/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[8.240s] -- Installing: /root/ros2_ws/src/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[8.306s] -- Installing: /root/ros2_ws/src/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[8.391s] -- Up-to-date: /root/ros2_ws/src/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[8.414s] -- Up-to-date: /root/ros2_ws/src/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[8.432s] -- Up-to-date: /root/ros2_ws/src/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[8.453s] -- Up-to-date: /root/ros2_ws/src/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[8.499s] Invoked command in '/root/ros2_ws/src/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/cpp_pubsub
