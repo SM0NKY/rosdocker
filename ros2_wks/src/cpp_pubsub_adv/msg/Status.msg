@@ -1,2 +1,2 @@
 string estado
-int32 nivel
+int64 code

@@ -3,6 +3,7 @@ ros2_wks/install/
 ros2_wks/log/
 ros2_wks/src/log/
 ros2_wks/src/build/
+ros2_wks/src/install/
 
 **/__pycache__/
 **/*.pyc
