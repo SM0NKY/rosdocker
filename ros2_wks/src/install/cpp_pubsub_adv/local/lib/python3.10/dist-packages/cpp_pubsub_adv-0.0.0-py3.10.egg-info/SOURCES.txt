@@ -1,0 +1,8 @@
+setup.py
+cpp_pubsub_adv/__init__.py
+cpp_pubsub_adv.egg-info/PKG-INFO
+cpp_pubsub_adv.egg-info/SOURCES.txt
+cpp_pubsub_adv.egg-info/dependency_links.txt
+cpp_pubsub_adv.egg-info/top_level.txt
+cpp_pubsub_adv/msg/__init__.py
+cpp_pubsub_adv/msg/_status.py
