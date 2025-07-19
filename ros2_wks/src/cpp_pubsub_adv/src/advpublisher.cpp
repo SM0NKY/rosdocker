@@ -1,5 +1,7 @@
 #include "rclcpp/rclcpp.hpp"
-#include "std_msgs/msg/string.hpp" 
+#include "std_msgs/msg/string.hpp"
+#include "cpp_pubsub_adv/msg/status.hpp"
+
 #include <chrono>
 #include <sstream>
 

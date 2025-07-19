@@ -17,20 +17,27 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Status.msg"
   DEPENDENCIES std_msgs
 )
+
+if (BUILD_INTERFACE)
+  rosidl_get_typesupport_target(cpp_pubsub_adv__rosidl_typesupport_cpp TARGET)
+endif()
+
 ament_export_dependencies(rosidl_default_runtime)
 
 # Ejecutables de los Nodos
 add_executable(advpublisher src/advpublisher.cpp)
 ament_target_dependencies(advpublisher rclcpp std_msgs)
 #Revisar esta linea
-add_dependencies(advpublisher ${PROJECT_NAME})
+
 
 
 add_executable(advlistener src/advlistener.cpp)
 ament_target_dependencies(advlistener rclcpp std_msgs)
-add_dependencies(advlistener ${PROJECT_NAME})
 
-
+if (TARGET_CPP)
+  add_dependencies(advlistener ${TARGET})
+  add_dependencies(advpublisher ${TARGET})
+endif()
 
 install (TARGETS advlistener advpublisher DESTINATION lib/${PROJECT_NAME})
 
