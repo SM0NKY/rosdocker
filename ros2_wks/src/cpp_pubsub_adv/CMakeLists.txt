@@ -5,15 +5,34 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-# find dependencies
+#Dependencias requeridas
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
-find_package(example_interfaces REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+find_package(rosidl_default_runtime REQUIRED)
 
+#Generar los mensajes
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/Status.msg"
+  DEPENDENCIES std_msgs
+)
+ament_export_dependencies(rosidl_default_runtime)
+
+# Ejecutables de los Nodos
 add_executable(advpublisher src/advpublisher.cpp)
 ament_target_dependencies(advpublisher rclcpp std_msgs)
-install (TARGETS advpublisher DESTINATION lib/${PROJECT_NAME})
+#Revisar esta linea
+add_dependencies(advpublisher ${PROJECT_NAME})
+
+
+add_executable(advlistener src/advlistener.cpp)
+ament_target_dependencies(advlistener rclcpp std_msgs)
+add_dependencies(advlistener ${PROJECT_NAME})
+
+
+
+install (TARGETS advlistener advpublisher DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

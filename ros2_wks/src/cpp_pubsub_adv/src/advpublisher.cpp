@@ -8,7 +8,7 @@ using namespace std::chrono_literals;
 class AdvancedPublisher : public rclcpp::Node{
 public:
     AdvancedPublisher() : Node ("advanced_publisher"), count_(0){
-        publisher_ = this->create_publisher<std_msgs::msg::String>("advtopic", 10);
+        publisher_ = this->create_publisher<std_msgs::msg::String>("adv_topic", 10);
         timer_ = this->create_wall_timer(1000ms, std::bind(&AdvancedPublisher::timer_callback, this));
     }
 private:
