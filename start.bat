@@ -4,7 +4,7 @@ title Lanzador ROS2 Docker
 REM Verificar si Docker está en ejecución
 docker info >nul 2>&1
 IF %ERRORLEVEL% NEQ 0 (
-    echo Docker Desktop no esta en ejecución. Intentando iniciarlo...
+    echo Docker Desktop no esta en ejecucion. Intentando iniciarlo...
     start "" "C:\Program Files\Docker\Docker\Docker Desktop.exe"
     
     REM Esperar a que Docker esté listo
