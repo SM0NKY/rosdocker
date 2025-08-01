@@ -15,7 +15,7 @@ IF %ERRORLEVEL% NEQ 0 (
     IF %ERRORLEVEL% NEQ 0 (
         goto wait_docker
     )
-    echo Docker está listo.
+    echo Docker esta listo.
 )
 
 REM Obtener la IP de WSL para el DISPLAY
